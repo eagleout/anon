@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --no-import-alias --eslint --use-npm)",
+      "Bash(npx create-next-app@latest aria-conciergerie --typescript --tailwind --app --src-dir --no-import-alias --eslint --use-npm)",
+      "Bash(shopt -s dotglob)",
+      "Bash(mv aria-conciergerie/* aria-conciergerie/.* .)",
+      "Bash(rmdir aria-conciergerie:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npm run:*)",
+      "Bash(npx shadcn@latest add sheet dropdown-menu badge avatar separator tooltip select scroll-area -y)",
+      "Bash(npx shadcn@latest add table dialog input textarea tabs label card switch -y)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx next:*)",
+      "Bash(ls -la \"/Users/eagleout/Documents/8 - projet IA/Conciergerie/.env\"*)",
+      "Bash(du -sh /tmp/*)",
+      "Bash(xargs kill:*)"
+    ]
+  }
+}
